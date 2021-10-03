@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+main{
+    width: 488px;
+    height: 513px;
+    background-color: #FFFFFF;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px 12px;
+    margin-bottom: auto;
+}
+
+body{
+    background-color: rgb(223, 221, 221);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#background{
+    background-color: rgb(204, 204, 204);
+    width: 600px;
+    height: 630px;
+    overflow:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#header-turnos{
+    background-color: #203774;
+    display: flex;
+    color: white;
+    overflow: auto;
+    border-top-left-radius: 12px;
+    height: 60px;
+    border-top-right-radius:12px;
+}
+
+#fecha-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.turno{
+    width: 330px;
+    height: 145px;
+    background-color:#203774;
+    margin-top: 15px;
+    border-radius: 12px 12px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    box-shadow: 0px 15px 15px -15px #203774; 
+}
+
+h3{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+h5{
+    font-weight: 100;
+    color: white;
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+button{
+    width: 95px;
+    height: 32px;
+    border-radius: 2px 2px;
+    border-style: none;
+    margin-left: 63%;
+    margin-top: -42px;
+    display: block;
+    color:black;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button:hover{
+    background-color: #b5c5f1d2;
+    color: white;
+}
+
+img{
+    width: 34px;
+    position: absolute;
+    top:-3px;
+    right: -1px;
+}
+
+.img-container{
+    width: 30px;
+    border: solid 3px #4868BD;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.names{
+    margin-left: 68px;
+    margin-top: -25px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+h1{
+    font-size: 18px;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+
+#close{
+    margin-top: 16px;
+    margin-left: 280px;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#close:hover{
+    color:#b5c5f1d2;;
+}
+
+#anterior{
+    text-decoration: none;
+    font-size: 28px;
+    margin-right: 35px;
+    margin-top: 10px;
+    color: rgb(150, 148, 148);
+}
+
+#anterior:hover{
+    color: black;
+}
+
+#posterior{
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: rgb(150, 148, 148);
+}
+
+#posterior:hover{
+    color: black;
+}
+
+#hoy{
+    margin-top: -30px;
+    margin-left: 235px;
+    margin-bottom: 18px;
+    display: block;
+    font-family: 'Mukta', sans-serif;
+    font-size: 12px;
+}
+
+#fecha{
+    font-family:'Mukta', sans-serif;
+    font-size: 23px;
+}
